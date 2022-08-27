@@ -1,0 +1,13 @@
+version: 1
+schemas:
+- id: pkg
+  desc: a package
+  parent: root
+  namespace: true
+  children:
+    - id: quickstart
+    - id: concepts
+    - id: arch
+    - id: config
+    - id: qa
+    - id: deploy
